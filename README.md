@@ -1,4 +1,4 @@
-# Cart_Pendulum_Control
+# Cart Pendulum Control
 
 This project presents a **real-time cart–pendulum control system** implemented on a **Xilinx Zynq SoC (Arty Z7)**. The work covers **system modeling, control design, fixed-point implementation, and hardware validation** on an actual test stand.
 

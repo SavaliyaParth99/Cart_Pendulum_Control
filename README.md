@@ -89,6 +89,23 @@ This system is a practical representation of an **overhead crane control problem
   - Data logging
   - Graph plotting
 
+
+---
+
+## 🔗 Main Real-Time Control C Code
+
+The **core real-time control logic** (interrupts, referencing phase, and position control state machine) is implemented in this file:
+
+👉 **Main Embedded Control File:**  
+https://github.com/SavaliyaParth99/Cart_Pendulum_Control/blob/main/Cpc/C_code/cpcivpmn.c
+
+This file contains:
+- Referencing state machine
+- Speed control during referencing
+- Position control loop
+- Encoder reading & DAC output
+- Real-time interrupt handling
+
 ---
 
 ## Final Outcome

@@ -4,10 +4,6 @@ This project presents a **real-time cart–pendulum control system** implemented
 
 ---
 
-# Cart Pendulum Control on Zynq (Real-Time Fixed-Point Implementation)
-
-Real-time cart pendulum position and speed control implemented using fixed-point C on Xilinx Zynq, validated against MATLAB/Simulink and tested on real hardware.
-
 ## Real Hardware Test Bench Setup
 
 ![Cart Pendulum Test Bench](https://github.com/SavaliyaParth99/Cart_Pendulum_Control/blob/main/Testbench.jpg)

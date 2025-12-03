@@ -2,11 +2,7 @@
 
 This project presents a **real-time cart–pendulum control system** implemented on a **Xilinx Zynq SoC (Arty Z7)**. The work covers **system modeling, control design, fixed-point implementation, and hardware validation** on an actual test stand.
 
-The project demonstrates practical skills in:
-- Embedded control systems
-- FPGA + ARM SoC development
-- MATLAB/Simulink to C/VHDL workflow
-- Real-time hardware validation
+---
 
 # Cart Pendulum Control on Zynq (Real-Time Fixed-Point Implementation)
 
@@ -15,7 +11,6 @@ Real-time cart pendulum position and speed control implemented using fixed-point
 ## Real Hardware Test Bench Setup
 
 ![Cart Pendulum Test Bench](https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/images/test_bench.png)
-
 
 ## What This Project Does
 

@@ -10,7 +10,7 @@ Real-time cart pendulum position and speed control implemented using fixed-point
 
 ## Real Hardware Test Bench Setup
 
-![Cart Pendulum Test Bench](https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/images/test_bench.png)
+![Cart Pendulum Test Bench](https://github.com/SavaliyaParth99/Cart_Pendulum_Control/blob/main/Testbench.jpg)
 
 ## What This Project Does
 

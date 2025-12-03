@@ -1,4 +1,4 @@
-# Cart_Pendulum_Control
+# Cart Pendulum Control
 
 This project presents a **real-time cart–pendulum control system** implemented on a **Xilinx Zynq SoC (Arty Z7)**. The work covers **system modeling, control design, fixed-point implementation, and hardware validation** on an actual test stand.
 
@@ -127,6 +127,24 @@ This comparison validates that the **real-time cart position controller implemen
 This comparison validates that the **embedded PI speed controller implemented in C** behaves identically to the Simulink model during the referencing phase.
 
 ![Speed Control Simulink vs C Comparison](https://github.com/SavaliyaParth99/Cart_Pendulum_Control/blob/main/Cpc/Cpc_simulink/Speed_Cotrol_Simulink_Model.png)
+
+---
+
+## Output Graph Comparison (Simulink vs Real-Time C)
+
+These graphs compare the **real-time fixed-point C controller output** with the **Simulink reference model**, validating dynamic behavior for both **position** and **speed**.
+
+---
+
+### 🔹 Position Output Comparison
+
+![Position Output Comparison](https://raw.githubusercontent.com/SavaliyaParth99/Cart_Pendulum_Control/main/Cpc/Cpc_simulink/Pos_Comparison_Graph.png)
+
+---
+
+### 🔹 Speed Output Comparison
+
+![Speed Output Comparison](https://raw.githubusercontent.com/SavaliyaParth99/Cart_Pendulum_Control/main/Cpc/Cpc_simulink/Speed_Comparison_Graph.png)
 
 ---
 

@@ -130,6 +130,24 @@ This comparison validates that the **embedded PI speed controller implemented in
 
 ---
 
+## Output Graph Comparison (Simulink vs Real-Time C)
+
+These graphs compare the **real-time fixed-point C controller output** with the **Simulink reference model**, validating dynamic behavior for both **position** and **speed**.
+
+---
+
+### 🔹 Position Output Comparison
+
+![Position Output Comparison](https://raw.githubusercontent.com/SavaliyaParth99/Cart_Pendulum_Control/main/Cpc/Cpc_simulink/Pos_Comparison_Graph.png)
+
+---
+
+### 🔹 Speed Output Comparison
+
+![Speed Output Comparison](https://raw.githubusercontent.com/SavaliyaParth99/Cart_Pendulum_Control/main/Cpc/Cpc_simulink/Speed_Comparison_Graph.png)
+
+---
+
 ✅ These results confirm that the **real-time fixed-point C implementation accurately reproduces the Simulink controller behavior**, validating correctness for hardware deployment.
 
 

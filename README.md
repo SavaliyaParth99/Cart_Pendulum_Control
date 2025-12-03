@@ -8,7 +8,14 @@ The project demonstrates practical skills in:
 - MATLAB/Simulink to C/VHDL workflow
 - Real-time hardware validation
 
----
+# Cart Pendulum Control on Zynq (Real-Time Fixed-Point Implementation)
+
+Real-time cart pendulum position and speed control implemented using fixed-point C on Xilinx Zynq, validated against MATLAB/Simulink and tested on real hardware.
+
+## Real Hardware Test Bench Setup
+
+![Cart Pendulum Test Bench](https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/images/test_bench.png)
+
 
 ## What This Project Does
 

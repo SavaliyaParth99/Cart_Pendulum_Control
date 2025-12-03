@@ -1,7 +1,4 @@
 # Cart_Pendulum_Control
-Modeling, simulation, and real-time control of a cart–pendulum system using MATLAB/Simulink and Zynq FPGA.
-
-# Cart Pendulum Control on Zynq (Real-Time Embedded System)
 
 This project presents a **real-time cart–pendulum control system** implemented on a **Xilinx Zynq SoC (Arty Z7)**. The work covers **system modeling, control design, fixed-point implementation, and hardware validation** on an actual test stand.
 

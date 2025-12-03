@@ -120,15 +120,29 @@ This comparison validates that the **embedded PI speed controller implemented in
 
 ---
 
-### 🔹 Position Control: C Code vs Simulink
+## C Code vs Simulink Comparison (Validation)
 
-This comparison validates the **real-time cart position controller behavior** against the Simulink reference model.
-
-![Position Control Simulink vs C Comparison](PASTE_POSITION_IMAGE_LINK_HERE)
+To verify real-time embedded behavior, the **fixed-point C controller outputs were directly compared with Simulink models** for both **position control** and **speed control**.
 
 ---
 
-✅ These results confirm that the **embedded real-time C implementation behaves identically to the designed Simulink controllers**, which validates the correctness of the fixed-point implementation.
+### 🔹 Position Control: C Code vs Simulink
+
+This comparison validates that the **real-time cart position controller implemented in fixed-point C** matches the designed Simulink reference model.
+
+![Position Control Simulink vs C Comparison](https://github.com/SavaliyaParth99/Cart_Pendulum_Control/blob/main/Cpc/Cpc_simulink/Position_Control_Simulink_Model.png)
+
+---
+
+### 🔹 Speed Control: C Code vs Simulink
+
+This comparison validates that the **embedded PI speed controller implemented in C** behaves identically to the Simulink model during the referencing phase.
+
+![Speed Control Simulink vs C Comparison](https://github.com/SavaliyaParth99/Cart_Pendulum_Control/blob/main/Cpc/Cpc_simulink/Speed_Cotrol_Simulink_Model.png)
+
+---
+
+✅ These results confirm that the **real-time fixed-point C implementation accurately reproduces the Simulink controller behavior**, validating correctness for hardware deployment.
 
 
 ## Final Outcome

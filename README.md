@@ -159,5 +159,19 @@ These graphs compare the **real-time fixed-point C controller output** with the 
 
 ---
 
-## Repository Structure
+
+---
+
+## Sequential Process Flow
+
+The following flow chart illustrates the **complete real-time execution sequence** of the Cart Pendulum Control system, from system start-up to active closed-loop control:
+
+![Cart Pendulum Control Sequential Flow](https://raw.githubusercontent.com/SavaliyaParth99/Cart_Pendulum_Control/main/Sequential_Flow_Cpc.png)
+
+This process includes:
+- System initialization
+- Referencing using limit switches
+- Speed control during referencing
+- Activation of position control
+- Continuous real-time feedback loop execution
 

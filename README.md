@@ -118,7 +118,7 @@ To verify real-time embedded behavior, the **fixed-point C controller outputs we
 
 This comparison validates that the **real-time cart position controller implemented in fixed-point C** matches the designed Simulink reference model.
 
-![Position Control Simulink vs C Comparison](https://github.com/SavaliyaParth99/Cart_Pendulum_Control/blob/main/Cpc/Cpc_simulink/Position_Control_Simulink_Model.png)
+![Position Control Simulink vs C Comparison](https://github.com/SavaliyaParth99/Cart_Pendulum_Control/blob/main/Cpc/Cpc_simulink/Pos_Cotrol_Simulink_Model.png)
 
 ---
 

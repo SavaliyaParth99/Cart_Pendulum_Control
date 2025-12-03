@@ -6,7 +6,7 @@ This project presents a **real-time cart–pendulum control system** implemented
 
 ## Real Hardware Test Bench Setup
 
-![Cart Pendulum Test Bench](https://github.com/SavaliyaParth99/Cart_Pendulum_Control/blob/main/Testbench.jpg)
+![Cart Pendulum Test Bench](https://github.com/SavaliyaParth99/Cart_Pendulum_Control/blob/main/src/Testbench.jpg)
 
 ## What This Project Does
 
@@ -116,7 +116,7 @@ To verify real-time embedded behavior, the **fixed-point C controller outputs we
 
 This comparison validates that the **real-time cart position controller implemented in fixed-point C** matches the designed Simulink reference model.
 
-![Position Control Simulink vs C Comparison](https://github.com/SavaliyaParth99/Cart_Pendulum_Control/blob/main/Cpc/Cpc_simulink/Pos_Cotrol_Simulink_Model.png)
+![Position Control Simulink vs C Comparison](https://github.com/SavaliyaParth99/Cart_Pendulum_Control/blob/main/src/Cpc_simulink/Pos_Cotrol_Simulink_Model.png)
 
 ---
 
@@ -124,7 +124,7 @@ This comparison validates that the **real-time cart position controller implemen
 
 This comparison validates that the **embedded PI speed controller implemented in C** behaves identically to the Simulink model during the referencing phase.
 
-![Speed Control Simulink vs C Comparison](https://github.com/SavaliyaParth99/Cart_Pendulum_Control/blob/main/Cpc/Cpc_simulink/Speed_Cotrol_Simulink_Model.png)
+![Speed Control Simulink vs C Comparison](https://github.com/SavaliyaParth99/Cart_Pendulum_Control/blob/main/src/Cpc_simulink/Speed_Cotrol_Simulink_Model.png)
 
 ---
 
@@ -136,13 +136,13 @@ These graphs compare the **real-time fixed-point C controller output** with the 
 
 ### 🔹 Position Output Comparison
 
-![Position Output Comparison](https://raw.githubusercontent.com/SavaliyaParth99/Cart_Pendulum_Control/main/Cpc/Cpc_simulink/Pos_Comparison_Graph.png)
+![Position Output Comparison](https://github.com/SavaliyaParth99/Cart_Pendulum_Control/blob/main/src/Cpc_simulink/Pos_Comparison_Graph.png)
 
 ---
 
 ### 🔹 Speed Output Comparison
 
-![Speed Output Comparison](https://raw.githubusercontent.com/SavaliyaParth99/Cart_Pendulum_Control/main/Cpc/Cpc_simulink/Speed_Comparison_Graph.png)
+![Speed Output Comparison](https://github.com/SavaliyaParth99/Cart_Pendulum_Control/blob/main/src/Cpc_simulink/Speed_Comparison_Graph.png)
 
 ---
 
@@ -164,7 +164,7 @@ These graphs compare the **real-time fixed-point C controller output** with the 
 
 The following flow chart illustrates the **complete real-time execution sequence** of the Cart Pendulum Control system, from system start-up to active closed-loop control:
 
-![Cart Pendulum Control Sequential Flow](https://raw.githubusercontent.com/SavaliyaParth99/Cart_Pendulum_Control/main/Sequential_Flow_Cpc.png)
+![Cart Pendulum Control Sequential Flow](https://github.com/SavaliyaParth99/Cart_Pendulum_Control/blob/main/src/Sequential_Flow_Cpc.png)
 
 This process includes:
 - System initialization
